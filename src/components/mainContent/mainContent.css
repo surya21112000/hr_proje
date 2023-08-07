@@ -1,0 +1,163 @@
+
+.main-container {
+  
+  flex-direction: column;
+  background:#f1f2f700;
+  width: 100%;
+  height:100vh;
+/* height: inerit; */
+scrollbar-arrow-color: transparent;
+scrollbar-width: none;
+  overflow: auto;
+
+  /* flex: 1; */
+  
+}
+.main-container::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the scrollbar thumb */
+  }
+  
+  .main-container::-webkit-scrollbar-track {
+    background-color: transparent; /* Set the color of the scrollbar track */
+  }
+  
+  .main-container {
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-color: transparent transparent; /* Set the color of the scrollbar thumb and track */
+  }
+  
+  .main-container::-moz-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the scrollbar thumb in Firefox */
+  }
+  
+  .main-container::-moz-scrollbar-track {
+    background-color: transparent; /* Set the color of the scrollbar track in Firefox */
+  }
+  
+  .main-container {
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-color: transparent transparent; /* Set the color of the scrollbar thumb and track */
+    -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer */
+  }
+  
+  .main-container::-webkit-scrollbar,
+  .main-container::-webkit-scrollbar-thumb,
+  .main-container::-webkit-scrollbar-track {
+    width: 0; /* Hide scrollbar in WebKit-based browsers */
+  }
+  
+
+  .sub-container {
+    display: flex;
+    width: 40%;
+    padding: 11px;
+    /* border: 1px solid black; */
+    height: 85%;
+    border-radius: 12px;
+    background: #ffffffa1;
+    box-shadow: 33px 32px 322px -57px rgb(0 0 0 / 50%);
+}
+
+
+.input{
+  border-radius: 16px;
+  border: 0.1px solid #00000087;
+  padding: 8px;
+}
+.checkboxes{
+  cursor: pointer;
+}
+
+#tab{
+    
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  gap: 5%;
+}
+.todo-item{
+  display: flex;
+  position: relative;
+  /* align-items: center; */
+  font-size: 13px;
+  gap:2%;
+}
+#todo{
+  width: 30%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 33px 32px 322px -57px rgb(0 0 0 / 50%);
+}
+
+.table-container {
+    display: flex;
+    width: 40%;
+    /* border: 1px solid black; */
+    height: 80%;
+    gap: 10px;
+    
+  }
+.sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  height: 45%;
+  align-items: center;
+  /* border: 1px solid black; */
+  
+  
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5%;
+    height: 75%;
+    align-items: center;
+   
+    /* border: 1px solid black; */
+}
+
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  height: 15%;
+  align-items: center;
+  border:none;
+  
+}
+
+.counts {
+  display: flex;
+  width: 20%;
+  height: 70%;
+  position: relative;
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  background-image: linear-gradient(to right bottom, #23b7e5, #1eacd8, #18a0cb, #1295bf, #0b8ab2);
+
+}
+
+#two{
+    background-image: linear-gradient(to right bottom, #845adf, #7a4ed9, #7042d3, #6636cd, #5b29c7);
+}
+#three{
+    background-image: linear-gradient(to right bottom, #23e5d4, #1dd4c6, #18c3b8, #14b3aa, #11a39c);
+}
+#four{
+    background-image: linear-gradient(to right bottom, #e5a123, #d4981e, #c38f19, #b38615, #a37d11);
+}

@@ -1,0 +1,14 @@
+.navbar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+
+    
+}
+.navbar::-webkit-scrollbar{
+    display: none;
+}

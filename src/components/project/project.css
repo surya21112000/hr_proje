@@ -1,0 +1,15 @@
+.profile-list-style{
+    background: white;
+    width: 100%;
+    
+    height: 100vh;
+    scrollbar-arrow-color: transparent;
+    scrollbar-width: none;
+    overflow: auto;
+    
+}
+.profileContento{
+    margin-left:6%;
+    width:90%
+
+}
